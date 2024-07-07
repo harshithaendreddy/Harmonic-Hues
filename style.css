@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow: hidden; /* Prevents scrollbars from appearing */
+    position: relative; /* Ensures musical notes are positioned relative to the body */
+    height: 100vh; /* Ensures body takes up full height of viewport */
+    background-color: #a8caa5; /* Optional: Background color for contrast */
+}
+
+.piano-container {
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 0;
+    padding: 0;
+}
+
+button {
+    width: 60px;
+    height: 200px;
+    margin: 2px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.white-key {
+    background-color: aliceblue;
+}
+
+.black-key {
+    background-color: black;
+    color: aliceblue;
+}
+
+.musical-note {
+    position: absolute;
+    top: 0;
+    left: 50%; /* Start at the middle, will be randomized by JavaScript */
+    font-size: 30px; /* Increase base size */
+    color: #999; /* Darker gray color */
+    opacity: 0.8; /* Slightly less transparent */
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(100vh); /* Matches body height */
+    }
+}
