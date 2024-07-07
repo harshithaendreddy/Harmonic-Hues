@@ -1,4 +1,5 @@
 **Harmonic Hues: Learn Piano in Vibrant Color**
+![image](https://github.com/harshithaendreddy/Harmonic-Hues/assets/143935928/5350fb59-f7c1-4189-a201-ca5c38361ca8)
 
 Harmonic Hues is an interactive digital piano application designed to bring the joy of music to your fingertips. This web-based project allows users to play a virtual piano with both visual and auditory feedback, providing a delightful and engaging experience for music enthusiasts of all ages.
 
@@ -35,4 +36,3 @@ Simply click on any of the piano keys to play a note. Each key is labeled with t
 Visual Experience:
 
 Enjoy the visually pleasing background with falling musical notes while playing the piano. The notes fall from random positions at the top of the screen, adding a touch of whimsy to your musical sessions.
-![image](https://github.com/harshithaendreddy/Harmonic-Hues/assets/143935928/5350fb59-f7c1-4189-a201-ca5c38361ca8)
